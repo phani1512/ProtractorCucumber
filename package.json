@@ -1,0 +1,26 @@
+{
+  "name": "transportaljs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cuke": ".\\node_modules\\.bin\\cucumber-js --format=json:cucumber_report.json && node index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phani1512/Transportal_Protractor.git"
+  },
+  "author": "Phaneendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phani1512/Transportal_Protractor/issues"
+  },
+  "homepage": "https://github.com/phani1512/Transportal_Protractor#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.0.0"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.3.0"
+  }
+}

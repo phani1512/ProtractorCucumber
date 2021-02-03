@@ -1,0 +1,165 @@
+[
+  {
+    "description": "    Inorder to perform successful Login\n    As a user\n    I want to enter correct username and password",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;inorder-to-verify-login-transportal",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "Inorder to verify Login Transportal",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigates to Transportal website",
+            "match": {
+              "location": "features\\stepDefinations\\stepDefinations.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user validates the home page Title",
+            "match": {
+              "location": "features\\stepDefinations\\stepDefinations.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user enters \"Valid\" username",
+            "match": {
+              "location": "features\\stepDefinations\\stepDefinations.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user enters \"Valid\" password",
+            "match": {
+              "location": "features\\stepDefinations\\stepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should \"be\" successfully logged in",
+            "match": {
+              "location": "features\\stepDefinations\\stepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;inorder-to-verify-login-transportal",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "Inorder to verify Login Transportal",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigates to Transportal website",
+            "match": {
+              "location": "features\\stepDefinations\\stepDefinations.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user validates the home page Title",
+            "match": {
+              "location": "features\\stepDefinations\\stepDefinations.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user enters \"Invalid\" username",
+            "match": {
+              "location": "features\\stepDefinations\\stepDefinations.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user enters \"Invalid\" password",
+            "match": {
+              "location": "features\\stepDefinations\\stepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should \"not\" successfully logged in",
+            "match": {
+              "location": "features\\stepDefinations\\stepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\stepDefinations\\Login.feature"
+  }
+]
